@@ -15,7 +15,7 @@ font-family: 'Poppins', sans-serif;
     --black: #171718;
     --black-border: #26292D;
     --white: #fff;
-    --purple: #5C62EC;
+    --purple: #077ad7;
 
     --text-color: var(--black);
 
@@ -261,13 +261,13 @@ html, body {
 .btn {
     display: inline-block;
     height: 48px;
-    padding: 12px 28px;
+    padding: 11px 28px;
 
     border-radius: 5px;
     background-color: var(--accent);
     color: var(--white);
     letter-spacing: 0.15px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
 
     transition: opacity 0.2s ease-in;
@@ -324,6 +324,11 @@ html, body {
     background-color: var(--project-card-bg);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
 }
 
 .project__img {
